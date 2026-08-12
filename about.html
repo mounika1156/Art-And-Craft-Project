@@ -1,0 +1,1806 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NextGear</title>
+        <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="about.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/homepages/home1.html">
+          <img src="images/logo.png" alt="Artistry Haven Logo" data-theme-logo />
+        </a>
+
+        <div class="logo-text">
+          <h1>CRAFT<span>NEST</span></h1>
+          <p>HANDMADE WITH HEART.</p>
+        </div>
+      </div>
+
+      <nav>
+        <ul class="nav-links">
+          <li class="dropdown">
+            <a href="/homepages/home1.html">
+              Home <i data-lucide="chevron-down"></i>
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a href="index.html">Home 1</a></li>
+              <li><a href="home2.html">Home 2</a></li>
+            </ul>
+          </li>
+
+          <li><a href="/aboutpage/about.html">About</a></li>
+          <li><a href="/servicespage/services.html">Workshops</a></li>
+          <li><a href="/collectionpage/collection.html">Collections</a></li>
+          <li><a href="/blogpage/blog.html">Journal</a></li>
+          <li><a href="/contactpage/contact.html">Contact</a></li>
+        </ul>
+
+        <div class="mobile-login">
+          <a href="/loginpages/login.html" class="login-btn">
+            <i data-lucide="user-round"></i>
+            <span>LOGIN</span>
+          </a>
+        </div>
+      </nav>
+
+      <div class="buttons">
+        <button
+          class="icon-btn rtl-btn"
+          id="rtlToggle"
+          title="RTL Mode"
+          aria-label="Toggle RTL mode"
+        >
+          <i data-lucide="arrow-left-right"></i>
+        </button>
+
+        <button
+          class="icon-btn dark-btn"
+          id="darkToggle"
+          title="Dark Mode"
+          aria-label="Toggle dark mode"
+        >
+          <i data-lucide="moon"></i>
+        </button>
+
+        <a href="/loginpages/login.html" class="login-btn desktop-login">
+     
+          <span>LOGIN</span>
+        </a>
+
+        <button
+          class="icon-btn menu-btn"
+          id="menuToggle"
+          title="Menu"
+          aria-label="Open menu"
+        >
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </header>
+
+
+
+
+    <!--==================================
+        ABOUT HERO BANNER
+==================================-->
+
+<section class="about-hero">
+
+    <div class="about-hero-overlay"></div>
+
+    <div class="about-hero-container">
+
+        <!-- LEFT CONTENT -->
+
+        <div class="about-hero-content">
+
+            <span class="about-hero-tag">
+                <i class="bi bi-stars"></i>
+                About Our Creative Journey
+            </span>
+
+            <h1>
+                Inspiring Creativity
+                <span>Since 1998</span>
+            </h1>
+
+            <p>
+                We believe every great creation begins with imagination.
+                Our mission is to provide artists, students, hobbyists,
+                and creative minds with quality art and craft supplies
+                that turn ideas into beautiful creations.
+            </p>
+
+            <div class="about-hero-buttons">
+
+                <a href="#story" class="about-btn-primary">
+                    <i class="bi bi-book-half"></i>
+                    Our Story
+                </a>
+
+                <a href="contact.html" class="about-btn-secondary">
+                    <i class="bi bi-chat-dots"></i>
+                    Get In Touch
+                </a>
+
+            </div>
+
+            <!-- STATS -->
+
+            <div class="about-hero-stats">
+
+                <div class="about-stat">
+
+                    <i class="bi bi-calendar-heart"></i>
+
+                    <div>
+                        <strong>25+</strong>
+                        <span>Years Experience</span>
+                    </div>
+
+                </div>
+
+                <div class="about-stat">
+
+                    <i class="bi bi-people-fill"></i>
+
+                    <div>
+                        <strong>15K+</strong>
+                        <span>Happy Creators</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT IMAGE -->
+
+        <div class="about-hero-image">
+
+            <div class="about-image-main">
+
+                <img
+                    src="images/abouthero.jpg"
+                    alt="Art and Craft Workspace"
+                >
+
+            </div>
+
+
+            <!-- FLOATING CARD 1 -->
+
+            <div class="about-floating-card about-card-one">
+
+                <i class="bi bi-palette-fill"></i>
+
+                <div>
+                    <strong>Creative</strong>
+                    <span>Possibilities</span>
+                </div>
+
+            </div>
+
+
+            <!-- FLOATING CARD 2 -->
+
+            <div class="about-floating-card about-card-two">
+
+                <i class="bi bi-award-fill"></i>
+
+                <div>
+                    <strong>Premium</strong>
+                    <span>Quality Supplies</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!--==================================
+            OUR STORY
+==================================-->
+
+<section class="our-story" id="story">
+
+    <div class="story-container">
+
+        <!-- LEFT IMAGE -->
+
+        <div class="story-visual">
+
+            <div class="story-image-wrap">
+
+                <img
+                    src="https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=900&q=85"
+                    alt="Artist creating handmade artwork"
+                    class="story-image"
+                >
+
+            </div>
+
+            <!-- Decorative Elements -->
+
+            <div class="story-shape shape-one"></div>
+
+            <div class="story-shape shape-two"></div>
+
+            <!-- Experience Badge -->
+
+            <div class="story-badge">
+
+                <i class="bi bi-heart-fill"></i>
+
+                <div>
+                    <strong>25+</strong>
+                    <span>Years of Creativity</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT CONTENT -->
+
+        <div class="story-content">
+
+            <span class="story-tag">
+                <i class="bi bi-book-half"></i>
+                Our Story
+            </span>
+
+            <h2>
+                A Passion for
+                <span>Creating Beautiful Things</span>
+            </h2>
+
+            <p class="story-intro">
+                What started as a small passion for art has grown into
+                a creative destination for artists, students, makers,
+                and dreamers.
+            </p>
+
+            <p>
+                We created our art and craft store with one simple idea:
+                make quality creative supplies accessible to everyone.
+                From professional artists to beginners discovering their
+                first creative hobby, we want every customer to find
+                something that inspires them.
+            </p>
+
+            <!-- Story Points -->
+
+            <div class="story-points">
+
+                <div class="story-point">
+
+                    <div class="story-point-icon">
+                        <i class="bi bi-palette-fill"></i>
+                    </div>
+
+                    <div>
+                        <h4>Quality Materials</h4>
+                        <p>
+                            Carefully selected supplies made for
+                            creative projects of every kind.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="story-point">
+
+                    <div class="story-point-icon">
+                        <i class="bi bi-lightbulb-fill"></i>
+                    </div>
+
+                    <div>
+                        <h4>Creative Inspiration</h4>
+                        <p>
+                            Products and ideas that encourage you
+                            to explore your imagination.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="story-point">
+
+                    <div class="story-point-icon">
+                        <i class="bi bi-people-fill"></i>
+                    </div>
+
+                    <div>
+                        <h4>Creative Community</h4>
+                        <p>
+                            Supporting artists and makers on their
+                            creative journey.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Button -->
+
+            <a href="collections.html" class="story-btn">
+
+                Explore Our Collection
+
+                <i class="bi bi-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!--==================================================
+        MISSION & VISION SECTION
+==================================================-->
+
+<section class="mission-vision" id="mission-vision">
+
+    <div class="mv-container">
+
+        <!-- SECTION HEADING -->
+
+        <div class="mv-heading">
+
+            <span class="mv-tag">
+                <i class="bi bi-compass-fill"></i>
+                Our Purpose
+            </span>
+
+            <h2>
+                Mission & <span>Vision</span>
+            </h2>
+
+            <p>
+                We believe creativity has the power to inspire,
+                connect, and transform everyday ideas into something
+                truly meaningful.
+            </p>
+
+        </div>
+
+
+        <!-- CONTENT -->
+
+        <div class="mv-wrapper">
+
+            <!-- MISSION -->
+
+            <div class="mv-content mission-content">
+
+                <div class="mv-number">
+                    01
+                </div>
+
+                <div class="mv-icon">
+                    <i class="bi bi-bullseye"></i>
+                </div>
+
+                <div class="mv-text">
+
+                    <span class="mv-label">
+                        What We Do
+                    </span>
+
+                    <h3>
+                        Our <span>Mission</span>
+                    </h3>
+
+                    <p>
+                        Our mission is to make quality art and craft
+                        supplies accessible to everyone. We carefully
+                        select creative products that help artists,
+                        students, hobbyists, and makers turn their
+                        ideas into reality.
+                    </p>
+
+                    <div class="mv-line"></div>
+
+                    <ul>
+
+                        <li>
+                            <i class="bi bi-check-circle-fill"></i>
+                            Quality creative supplies
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-circle-fill"></i>
+                            Products for every skill level
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-circle-fill"></i>
+                            Inspiration for every creator
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <!-- CENTER DIVIDER -->
+
+            <div class="mv-divider">
+
+                <span>
+                    <i class="bi bi-stars"></i>
+                </span>
+
+            </div>
+
+
+            <!-- VISION -->
+
+            <div class="mv-content vision-content">
+
+                <div class="mv-number">
+                    02
+                </div>
+
+                <div class="mv-icon">
+                    <i class="bi bi-eye-fill"></i>
+                </div>
+
+                <div class="mv-text">
+
+                    <span class="mv-label">
+                        Where We Are Going
+                    </span>
+
+                    <h3>
+                        Our <span>Vision</span>
+                    </h3>
+
+                    <p>
+                        Our vision is to build a creative community
+                        where imagination has no limits. We aim to
+                        inspire more people to discover their creativity
+                        and enjoy the process of making something unique.
+                    </p>
+
+                    <div class="mv-line"></div>
+
+                    <ul>
+
+                        <li>
+                            <i class="bi bi-check-circle-fill"></i>
+                            Inspire creative confidence
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-circle-fill"></i>
+                            Grow a creative community
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check-circle-fill"></i>
+                            Encourage limitless imagination
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<section class="creative-team" id="creative-team">
+
+    <div class="team-container">
+
+        <!-- Heading -->
+        <div class="team-heading">
+
+            <span class="team-tag">
+                <i class="bi bi-people-fill"></i>
+                Our Creative Team
+            </span>
+
+            <h2>
+                Meet Our
+                <span>Creative Team</span>
+            </h2>
+
+            <p>
+                Meet the passionate artists and creative minds
+                who bring inspiration and creativity to everything we do.
+            </p>
+
+        </div>
+
+
+        <!-- 3 TEAM MEMBERS -->
+
+        <div class="team-grid">
+
+
+            <!-- MEMBER 1 -->
+
+            <div class="team-member">
+
+                <div class="member-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=90"
+                        alt="Creative Director"
+                    >
+
+                    <div class="member-social">
+
+                        <a href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="member-info">
+
+                    <span>Creative Director</span>
+
+                    <h3>Olivia Anderson</h3>
+
+                    <p>
+                        Leading our creative vision and inspiring
+                        new ideas  every project.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- MEMBER 2 -->
+
+            <div class="team-member">
+
+                <div class="member-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=90"
+                        alt="Senior Artist"
+                    >
+
+                    <div class="member-social">
+
+                        <a href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="member-info">
+
+                    <span>Senior Artist</span>
+
+                    <h3>Ethan Williams</h3>
+
+                    <p>
+                        Creating inspiring artwork and exploring
+                        new creative techniques.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- MEMBER 3 -->
+
+            <div class="team-member">
+
+                <div class="member-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=90"
+                        alt="Craft Specialist"
+                    >
+
+                    <div class="member-social">
+
+                        <a href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="member-info">
+
+                    <span>Craft Specialist</span>
+
+                    <h3>Sophia Martin</h3>
+
+                    <p>
+                        Turning creative ideas into beautiful
+                        handmade projects.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!--==================================================
+        WHY CHOOSE CRAFTNEST
+==================================================-->
+
+<section class="why-craftnest" id="why-craftnest">
+
+    <div class="why-container">
+
+        <!-- SECTION HEADING -->
+
+        <div class="why-heading">
+
+            <span class="why-tag">
+                <i class="bi bi-stars"></i>
+                Why Choose CraftNest
+            </span>
+
+            <h2>
+                Everything You Need to
+                <span>Create Freely</span>
+            </h2>
+
+            <p>
+                We make creativity easier with quality materials,
+                thoughtful service, and everything you need to
+                bring your ideas to life.
+            </p>
+
+        </div>
+
+
+        <!-- CONTENT -->
+
+        <div class="why-content">
+
+            <!-- LEFT SIDE -->
+
+            <div class="why-intro">
+
+                <div class="why-number">
+                    01
+                </div>
+
+                <h3>
+                    Created for
+                    <span>Every Creator</span>
+                </h3>
+
+                <p>
+                    Whether you are an experienced artist, a student,
+                    a hobbyist, or simply exploring a new creative
+                    passion, CraftNest has something for you.
+                </p>
+
+                <a href="collections.html" class="why-btn">
+                    Explore Collections
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <!-- RIGHT FEATURES -->
+
+            <div class="why-features">
+
+                <!-- FEATURE 1 -->
+
+                <div class="why-feature">
+
+                    <div class="why-icon">
+                        <i class="bi bi-gem"></i>
+                    </div>
+
+                    <div class="why-feature-content">
+
+                        <span class="why-small-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Premium Quality
+                        </h3>
+
+                        <p>
+                            Carefully selected art and craft supplies
+                            designed for reliable and enjoyable
+                            creative work.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FEATURE 2 -->
+
+                <div class="why-feature">
+
+                    <div class="why-icon">
+                        <i class="bi bi-palette-fill"></i>
+                    </div>
+
+                    <div class="why-feature-content">
+
+                        <span class="why-small-number">
+                            02
+                        </span>
+
+                        <h3>
+                            Creative Variety
+                        </h3>
+
+                        <p>
+                            Discover paints, brushes, stationery,
+                            craft materials, tools, and more in
+                            one creative destination.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FEATURE 3 -->
+
+                <div class="why-feature">
+
+                    <div class="why-icon">
+                        <i class="bi bi-truck"></i>
+                    </div>
+
+                    <div class="why-feature-content">
+
+                        <span class="why-small-number">
+                            03
+                        </span>
+
+                        <h3>
+                            Easy Shopping
+                        </h3>
+
+                        <p>
+                            Find your favorite creative supplies
+                            through a simple and convenient
+                            shopping experience.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FEATURE 4 -->
+
+                <div class="why-feature">
+
+                    <div class="why-icon">
+                        <i class="bi bi-heart-fill"></i>
+                    </div>
+
+                    <div class="why-feature-content">
+
+                        <span class="why-small-number">
+                            04
+                        </span>
+
+                        <h3>
+                            Made with Passion
+                        </h3>
+
+                        <p>
+                            CraftNest is built around a genuine love
+                            for art, creativity, handmade work,
+                            and the people who create it.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<!--==================================================
+        CORE VALUES SECTION
+==================================================-->
+
+<section class="core-values" id="core-values">
+
+    <div class="core-values-container">
+
+        <!-- SECTION HEADING -->
+
+        <div class="core-values-heading">
+
+            <span class="core-values-tag">
+                <i class="bi bi-heart-fill"></i>
+                What We Believe
+            </span>
+
+            <h2>
+                Our Core
+                <span>Values</span>
+            </h2>
+
+            <p>
+                The principles that guide everything we create,
+                every product we choose, and every relationship
+                we build with our creative community.
+            </p>
+
+        </div>
+
+
+        <!-- VALUES CONTENT -->
+
+        <div class="values-wrapper">
+
+            <!-- LEFT NUMBER -->
+
+            <div class="values-side">
+
+                <span class="values-big-number">
+                    04
+                </span>
+
+                <h3>
+                    Creativity
+                    <span>With Purpose</span>
+                </h3>
+
+                <p>
+                    We believe creativity becomes meaningful when
+                    passion, quality, and imagination come together.
+                </p>
+
+            </div>
+
+
+            <!-- VALUES LIST -->
+
+            <div class="values-list">
+
+
+                <!-- VALUE 01 -->
+
+                <div class="value-item">
+
+                    <div class="value-number">
+                        01
+                    </div>
+
+                    <div class="value-icon">
+                        <i class="bi bi-stars"></i>
+                    </div>
+
+                    <div class="value-content">
+
+                        <h3>
+                            Creativity
+                        </h3>
+
+                        <p>
+                            We encourage imagination, experimentation,
+                            and the freedom to create something unique.
+                        </p>
+
+                    </div>
+
+                    <i class="bi bi-arrow-up-right value-arrow"></i>
+
+                </div>
+
+
+                <!-- VALUE 02 -->
+
+                <div class="value-item">
+
+                    <div class="value-number">
+                        02
+                    </div>
+
+                    <div class="value-icon">
+                        <i class="bi bi-gem"></i>
+                    </div>
+
+                    <div class="value-content">
+
+                        <h3>
+                            Quality
+                        </h3>
+
+                        <p>
+                            We carefully select reliable materials and
+                            products that creators can confidently use.
+                        </p>
+
+                    </div>
+
+                    <i class="bi bi-arrow-up-right value-arrow"></i>
+
+                </div>
+
+
+                <!-- VALUE 03 -->
+
+                <div class="value-item">
+
+                    <div class="value-number">
+                        03
+                    </div>
+
+                    <div class="value-icon">
+                        <i class="bi bi-people-fill"></i>
+                    </div>
+
+                    <div class="value-content">
+
+                        <h3>
+                            Community
+                        </h3>
+
+                        <p>
+                            We support artists, students, hobbyists,
+                            makers, and everyone on their creative journey.
+                        </p>
+
+                    </div>
+
+                    <i class="bi bi-arrow-up-right value-arrow"></i>
+
+                </div>
+
+
+                <!-- VALUE 04 -->
+
+                <div class="value-item">
+
+                    <div class="value-number">
+                        04
+                    </div>
+
+                    <div class="value-icon">
+                        <i class="bi bi-lightbulb-fill"></i>
+                    </div>
+
+                    <div class="value-content">
+
+                        <h3>
+                            Inspiration
+                        </h3>
+
+                        <p>
+                            We aim to spark new ideas and help every
+                            creator discover the joy of making.
+                        </p>
+
+                    </div>
+
+                    <i class="bi bi-arrow-up-right value-arrow"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<!--==================================================
+        CUSTOMER REVIEWS
+==================================================-->
+
+<section class="customer-reviews" id="customer-reviews">
+
+    <div class="reviews-container">
+
+        <!-- SECTION HEADING -->
+
+        <div class="reviews-heading">
+
+            <span class="reviews-tag">
+                <i class="bi bi-chat-quote-fill"></i>
+                Customer Reviews
+            </span>
+
+            <h2>
+                Loved by
+                <span>Creative Minds</span>
+            </h2>
+
+            <p>
+                See what artists, makers, students, and creative
+                enthusiasts say about their experience with CraftNest.
+            </p>
+
+        </div>
+
+
+        <!-- REVIEWS -->
+
+        <div class="reviews-list">
+
+
+            <!-- REVIEW 01 -->
+
+            <article class="review-item">
+
+                <div class="review-top">
+
+                    <div class="review-user">
+
+                        <div class="review-avatar">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+
+                        <div>
+                            <h3>Sarah Wilson</h3>
+                            <span>Artist</span>
+                        </div>
+
+                    </div>
+
+                    <div class="review-stars">
+
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+
+                    </div>
+
+                </div>
+
+                <div class="review-quote">
+                    <i class="bi bi-quote"></i>
+                </div>
+
+                <p class="review-text">
+                    CraftNest has become one of my favorite places
+                    to find art supplies. The quality is excellent
+                    and there is always something new to discover.
+                </p>
+
+                <span class="review-date">
+                    <i class="bi bi-calendar3"></i>
+                    Creative Customer
+                </span>
+
+            </article>
+
+
+            <!-- REVIEW 02 -->
+
+            <article class="review-item">
+
+                <div class="review-top">
+
+                    <div class="review-user">
+
+                        <div class="review-avatar">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+
+                        <div>
+                            <h3>Daniel Thomas</h3>
+                            <span>Illustrator</span>
+                        </div>
+
+                    </div>
+
+                    <div class="review-stars">
+
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+
+                    </div>
+
+                </div>
+
+                <div class="review-quote">
+                    <i class="bi bi-quote"></i>
+                </div>
+
+                <p class="review-text">
+                    I really enjoy the variety of products available.
+                    Finding the right tools for my creative projects
+                    has become much easier.
+                </p>
+
+                <span class="review-date">
+                    <i class="bi bi-calendar3"></i>
+                    Creative Customer
+                </span>
+
+            </article>
+
+
+            <!-- REVIEW 03 -->
+
+            <article class="review-item">
+
+                <div class="review-top">
+
+                    <div class="review-user">
+
+                        <div class="review-avatar">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+
+                        <div>
+                            <h3>Emma Johnson</h3>
+                            <span>Craft Maker</span>
+                        </div>
+
+                    </div>
+
+                    <div class="review-stars">
+
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+
+                    </div>
+
+                </div>
+
+                <div class="review-quote">
+                    <i class="bi bi-quote"></i>
+                </div>
+
+                <p class="review-text">
+                    The products are perfect for my handmade projects.
+                    I love the simple shopping experience and the
+                    creative inspiration from CraftNest.
+                </p>
+
+                <span class="review-date">
+                    <i class="bi bi-calendar3"></i>
+                    Creative Customer
+                </span>
+
+            </article>
+
+        </div>
+
+
+        <!-- REVIEW SUMMARY -->
+
+        <div class="review-summary">
+
+            <div class="summary-rating">
+
+                <strong>4.9</strong>
+
+                <div>
+
+                    <div class="summary-stars">
+
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+
+                    </div>
+
+                    <span>
+                        Based on creative customer experiences
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="summary-divider"></div>
+
+
+            <div class="summary-item">
+
+                <i class="bi bi-heart-fill"></i>
+
+                <div>
+                    <strong>Creative Community</strong>
+                    <span>Built with passion</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!--==================================================
+        FAQ SECTION
+==================================================-->
+
+<section class="faq-section" id="faq">
+
+    <div class="faq-container">
+
+        <!-- SECTION HEADING -->
+
+        <div class="faq-heading">
+
+            <span class="faq-tag">
+                <i class="bi bi-question-circle-fill"></i>
+                Frequently Asked Questions
+            </span>
+
+            <h2>
+                Have Questions?
+                <span>We Have Answers</span>
+            </h2>
+
+            <p>
+                Find quick answers to common questions about
+                CraftNest products, orders, delivery, and returns.
+            </p>
+
+        </div>
+
+
+        <!-- FAQ CONTENT -->
+
+        <div class="faq-layout">
+
+            <!-- LEFT SIDE -->
+
+            <div class="faq-intro">
+
+                <div class="faq-icon-large">
+                    <i class="bi bi-chat-dots-fill"></i>
+                </div>
+
+                <h3>
+                    Need More
+                    <span>Help?</span>
+                </h3>
+
+                <p>
+                    Can't find the answer you're looking for?
+                    Our team is happy to help you with your
+                    creative shopping experience.
+                </p>
+
+                <a href="contact.html" class="faq-contact-btn">
+                    Contact Us
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <!-- RIGHT SIDE -->
+
+            <div class="faq-list">
+
+
+                <!-- FAQ 01 -->
+
+                <div class="faq-item">
+
+                    <button
+                        class="faq-question"
+                        type="button"
+                        aria-expanded="false"
+                    >
+
+                        <span>
+                            <i class="bi bi-box-seam"></i>
+                            What products does CraftNest offer?
+                        </span>
+
+                        <i class="bi bi-plus-lg faq-plus"></i>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            CraftNest offers a wide range of art and
+                            craft supplies including paints, brushes,
+                            drawing materials, stationery, craft tools,
+                            and creative project essentials.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 02 -->
+
+                <div class="faq-item">
+
+                    <button
+                        class="faq-question"
+                        type="button"
+                        aria-expanded="false"
+                    >
+
+                        <span>
+                            <i class="bi bi-cart-check"></i>
+                            How can I place an order?
+                        </span>
+
+                        <i class="bi bi-plus-lg faq-plus"></i>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            Browse our collections, choose the products
+                            you need, add them to your shopping cart,
+                            and continue to checkout to complete your order.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 03 -->
+
+                <div class="faq-item">
+
+                    <button
+                        class="faq-question"
+                        type="button"
+                        aria-expanded="false"
+                    >
+
+                        <span>
+                            <i class="bi bi-truck"></i>
+                            How long does delivery take?
+                        </span>
+
+                        <i class="bi bi-plus-lg faq-plus"></i>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            Delivery times can vary depending on your
+                            location and the availability of the products
+                            in your order. Check the delivery information
+                            during checkout for the latest details.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 04 -->
+
+                <div class="faq-item">
+
+                    <button
+                        class="faq-question"
+                        type="button"
+                        aria-expanded="false"
+                    >
+
+                        <span>
+                            <i class="bi bi-arrow-repeat"></i>
+                            Can I return a product?
+                        </span>
+
+                        <i class="bi bi-plus-lg faq-plus"></i>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            Return eligibility depends on the product
+                            and its condition. Please review our return
+                            policy or contact our support team for help.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 05 -->
+
+                <div class="faq-item">
+
+                    <button
+                        class="faq-question"
+                        type="button"
+                        aria-expanded="false"
+                    >
+
+                        <span>
+                            <i class="bi bi-credit-card"></i>
+                            What payment methods are available?
+                        </span>
+
+                        <i class="bi bi-plus-lg faq-plus"></i>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            Available payment methods are displayed
+                            during checkout. Choose the option that
+                            is most convenient for you.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FAQ 06 -->
+
+                <div class="faq-item">
+
+                    <button
+                        class="faq-question"
+                        type="button"
+                        aria-expanded="false"
+                    >
+
+                        <span>
+                            <i class="bi bi-person-heart"></i>
+                            Can beginners shop at CraftNest?
+                        </span>
+
+                        <i class="bi bi-plus-lg faq-plus"></i>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            Absolutely. CraftNest is designed for
+                            beginners, students, hobbyists, artists,
+                            and experienced creators alike.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!--==================================================
+        CTA BANNER SECTION
+==================================================-->
+
+<section class="cta-banner" id="cta-banner">
+
+    <div class="cta-bg-shape cta-shape-one"></div>
+    <div class="cta-bg-shape cta-shape-two"></div>
+
+    <div class="cta-container">
+
+        <!-- LEFT CONTENT -->
+
+        <div class="cta-content">
+
+            <span class="cta-tag">
+                <i class="bi bi-stars"></i>
+                Start Creating Today
+            </span>
+
+            <h2>
+                Turn Your
+                <span>Ideas Into Art</span>
+            </h2>
+
+            <p>
+                Discover quality art and craft supplies designed
+                to bring your imagination to life. Find everything
+                you need for your next creative project.
+            </p>
+
+            <div class="cta-buttons">
+
+                <a href="collections.html" class="cta-btn cta-primary">
+                    Explore Collection
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+                <a href="contact.html" class="cta-btn cta-secondary">
+                    Get In Touch
+                    <i class="bi bi-chat-dots"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT VISUAL -->
+
+        <div class="cta-visual">
+
+            <div class="cta-circle">
+
+                <i class="bi bi-palette-fill"></i>
+
+            </div>
+
+            <div class="cta-floating cta-float-one">
+                <i class="bi bi-brush-fill"></i>
+            </div>
+
+            <div class="cta-floating cta-float-two">
+                <i class="bi bi-pencil-fill"></i>
+            </div>
+
+            <div class="cta-floating cta-float-three">
+                <i class="bi bi-scissors"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <a href="/homepages/home1.html">
+              <img src="images/logo.png" alt="Artistry Haven Logo" data-theme-logo />
+            </a>
+
+            <div class="logo-text footer-branding">
+              <h1>CRAFT<span>NEST</span></h1>
+              <p>HANDMADE WITH HEART.</p>
+            </div>
+          </div>
+
+          <p class="footer-about">
+            Artistry Haven brings together handmade decor, creative workshops,
+            and thoughtfully crafted supplies for makers who love color,
+            texture, and meaningful design.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/homepages/home2.html">Home</a></li>
+            <li><a href="/aboutpage/about.html">About</a></li>
+            <li><a href="/servicespage/services.html">Workshops</a></li>
+            <li><a href="/collectionpage/collection.html">Collections</a></li>
+          
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Collections</h3>
+          <ul class="hours">
+            <li>
+              <a href="/collectionpage/collectiondetailing.html"
+                >Handmade Decor</a
+              >
+            </li>
+            <li>
+              <a href="/collectionpage/collectiondetailing.html">DIY Kits</a>
+            </li>
+            <li>
+              <a href="/collectionpage/collectiondetailing.html"
+                >Art Supplies</a
+              >
+            </li>
+            <li>
+              <a href="/collectionpage/collectiondetailing.html">Gift Sets</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Resources</h3>
+          <ul>
+            <li>
+              <a href="/additionalpages/upcoming.html">Upcoming Events</a>
+            </li>
+            <li><a href="/additionalpages/404.html">Help Center</a></li>
+            <li>
+              <a
+                href="https://maps.app.goo.gl/sUXPAUEoeFYsYGZ69"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Studio Map</a
+              >
+            </li>
+             <li><a href="/blogpage/blog.html">Journal</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Contact Us</h3>
+          <ul class="contact">
+            <li><i data-lucide="map-pin"></i> Hyderabad, Telangana</li>
+            <li><i data-lucide="phone"></i> +91 98765 43210</li>
+            <li><i data-lucide="mail"></i> hello@artistryhaven.com</li>
+          </ul>
+
+          <div class="social">
+            <a href="#" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="Pinterest"
+              ><i class="fa-brands fa-pinterest-p"></i
+            ></a>
+            <a href="#" aria-label="Facebook"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="YouTube"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Artistry Haven. All Rights Reserved.</p>
+
+        <div class="footer-bottom-links">
+          <a href="/additionalpages/privacy.html">Privacy Policy</a>
+          <a href="/additionalpages/terms.html">Terms & Conditions</a>
+          <a href="#" class="top-btn" aria-label="Back to top">
+            <i data-lucide="arrow-up"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        lucide.createIcons();
+      });
+    </script>
+    <script src="about.js"></script>
+  </body>
+</html>
