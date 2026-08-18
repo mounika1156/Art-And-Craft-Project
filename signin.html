@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CraftNest | Sign In</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+    <link rel="stylesheet" href="signin.css">
+</head>
+
+
+<body>
+
+
+<main class="signin-page">
+
+   
+    <div class="signin-controls">
+
+       
+        <button
+            type="button"
+            class="signin-control"
+            id="themeBtn"
+            title="Dark Mode"
+        >
+            <i id="themeIcon" class="bi bi-moon-fill"></i>
+        </button>
+
+      
+        <button
+            type="button"
+            class="signin-control"
+            id="rtlBtn"
+            title="RTL"
+        >
+            <i class="bi bi-arrow-left-right"></i>
+        </button>
+
+    </div>
+
+
+    
+    <section class="signin-card">
+
+
+        <!-- LOGO -->
+        <div class="signin-logo">
+
+            <a href="index.html">
+
+                <img
+                    src="images/logo-2.png"
+                    alt="CraftNest Logo"
+                >
+
+            </a>
+
+        </div>
+
+
+        <div class="signin-heading">
+
+            <h1>
+                Craft<span>Nest</span>
+            </h1>
+
+            <p>
+                Create Your Imagination
+            </p>
+
+        </div>
+
+
+      
+        <form
+            class="signin-form"
+            id="signinForm"
+            novalidate
+        >
+
+
+            <!-- EMAIL -->
+            <div class="signin-input-group">
+
+                <label for="signinEmail">
+                    Email Address
+                </label>
+
+                <div class="signin-input-box">
+
+                    <i class="bi bi-envelope signin-input-icon"></i>
+
+                    <input
+                        type="email"
+                        id="signinEmail"
+                        name="email"
+                        placeholder="Enter your email"
+                        autocomplete="email"
+                    >
+
+                </div>
+
+                <small
+                    class="signin-error"
+                    id="signinEmailError"
+                ></small>
+
+            </div>
+
+
+            <div class="signin-input-group">
+
+                <label for="signinPassword">
+                    Password
+                </label>
+
+                <div class="signin-input-box">
+
+                    <i class="bi bi-lock signin-input-icon"></i>
+
+                    <input
+                        type="password"
+                        id="signinPassword"
+                        name="password"
+                        placeholder="Enter your password"
+                        autocomplete="current-password"
+                    >
+
+                    <button
+                        type="button"
+                        class="signin-password-toggle"
+                        id="signinPasswordToggle"
+                        aria-label="Show password"
+                    >
+                        <i
+                            class="bi bi-eye"
+                            id="signinPasswordIcon"
+                        ></i>
+                    </button>
+
+                </div>
+
+                <small
+                    class="signin-error"
+                    id="signinPasswordError"
+                ></small>
+
+            </div>
+
+
+           
+            <div class="signin-options">
+
+                <label class="signin-remember">
+
+                    <input
+                        type="checkbox"
+                        id="signinRemember"
+                    >
+
+                    <span class="signin-check">
+                        <i class="bi bi-check"></i>
+                    </span>
+
+                    <span>
+                        Remember Me
+                    </span>
+
+                </label>
+
+
+                <a
+                    href="#"
+                    class="signin-forgot"
+                    id="forgotPassword"
+                >
+                    Forgot Password?
+                </a>
+
+            </div>
+
+
+          
+            <button
+                type="submit"
+                class="signin-btn"
+            >
+                Sign In
+            </button>
+
+        </form>
+
+
+      
+        <div class="signin-divider">
+
+            <span></span>
+
+            <p>OR</p>
+
+            <span></span>
+
+        </div>
+
+
+       
+        <div class="signin-social">
+
+
+            <!-- GOOGLE -->
+            <button
+                type="button"
+                class="signin-social-btn"
+                data-provider="Google"
+            >
+                <i class="bi bi-google"></i>
+                <span>Google</span>
+            </button>
+
+
+          
+            <button
+                type="button"
+                class="signin-social-btn"
+                data-provider="Apple"
+            >
+                <i class="bi bi-apple"></i>
+                <span>Apple</span>
+            </button>
+
+
+         
+            <button
+                type="button"
+                class="signin-social-btn"
+                data-provider="Facebook"
+            >
+                <i class="bi bi-facebook"></i>
+                <span>Facebook</span>
+            </button>
+
+
+        </div>
+
+
+        
+        <div class="signin-create">
+
+            <span>
+                Don't have an account?
+            </span>
+
+            <a href="signin.html">
+                Create Account
+            </a>
+
+        </div>
+
+
+    </section>
+
+</main>
+
+
+<script src="signin.js"></script>
+
+</body>
+</html>

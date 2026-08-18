@@ -337,7 +337,7 @@ nav {
 
 footer {
   background: #fcf8f3;
-  padding: 50px 80px 20px;
+ padding: 50px 80px 20px 30px;
   border-top: 1px solid var(--border);
 }
 
@@ -926,7 +926,7 @@ body.dark-mode .login-btn:hover span {
   }
 
   footer {
-    padding: 70px 40px 30px;
+    padding: 50px 80px 20px;
   }
 
   .footer-container {
@@ -1009,14 +1009,13 @@ header ul{
 
 .hero-modern{
     width:100%;
-    min-height:100vh;
+    min-height:95vh;
     padding:85px 5%;
     background:#f8f7f3;
     overflow:hidden;
     position:relative;
 }
 
-/* Decorative Background */
 
 .hero-modern::before{
     content:"";
@@ -1311,7 +1310,6 @@ header ul{
     transition:.4s ease;
 }
 
-/* Primary Button */
 
 .btn-primary{
     background:var(--secondary-dark);
@@ -1325,17 +1323,19 @@ header ul{
     box-shadow:0 20px 40px rgba(37,99,235,.35);
 }
 
-/* Secondary Button */
+
 
 .btn-secondary{
-    background:#fff;
+   
     color:var(--primary);
     border:2px solid var(--primary);
+  
 }
 
 .btn-secondary:hover{
-    background:var(--primary);
+    background:var(--secondary);
     color:#fff;
+    border: none;
     transform:translateY(-6px);
 }
 
@@ -1652,7 +1652,7 @@ body.dark-mode .hero-content p{
 
 body.dark-mode .hero-tagline{
 
-    background:#1e293b;
+    background:var(--primary);
 
     color:#ffffff;
 
@@ -1722,7 +1722,6 @@ html[dir="rtl"] .hero-modern .container {
     direction: rtl;
 }
 
-/* Content alignment */
 html[dir="rtl"] .hero-content {
     text-align: right;
 }
@@ -2072,7 +2071,7 @@ html[dir="rtl"] .btn-secondary:hover i {
         right: 0;
     }
 
-    /* RTL 768px */
+   
     html[dir="rtl"] .hero-content {
         text-align: center;
     }
@@ -2306,7 +2305,7 @@ html[dir="rtl"] .btn-secondary:hover i {
 
 .shop-category{
     width:100%;
-    padding:70px 5%;
+    padding:150px 5%;
     background:var(--bg,#ffffff);
     overflow:hidden;
 }
@@ -2467,7 +2466,6 @@ html[dir="rtl"] .btn-secondary:hover i {
 }
 
 
-/* Card Glow */
 
 .category-item::before{
     content:"";
@@ -2849,7 +2847,7 @@ body.dark-mode .shop-category .section-title p{
 }
 
 
-/* Dark Section Tag */
+
 
 body.dark-mode .section-tag{
     background:#1B2321;
@@ -3263,7 +3261,7 @@ html[dir="rtl"] body.dark-mode .category-content{
 
 .creative-process{
     width:100%;
-    padding:90px 5% 100px;
+    padding:150px 5% 100px;
     background:var(--bg,#ffffff);
     overflow:hidden;
 }
@@ -4211,7 +4209,7 @@ html[dir="rtl"] .process-number{
 
 .brand-partners{
     width:100%;
-    padding:50px 5%;
+    padding:150px 5%;
     background:var(--bg,#ffffff);
     overflow:hidden;
 }
@@ -4789,7 +4787,7 @@ html[dir="rtl"] .brand-item span{
 
 .occasion-section {
     width: 100%;
-    padding: 65px 5%;
+    padding: 150px 5%;
     background: var(--bg, #f8f9fc);
     overflow: hidden;
 }
@@ -5403,7 +5401,7 @@ html[dir="rtl"] .occasion-item:hover .occasion-arrow {
 
 .shop-category{
     width:100%;
-    padding:75px 5%;
+    padding:150px 5%;
     background:var(--bg,#f8f9fc);
 }
 
@@ -6097,13 +6095,9 @@ html[dir="rtl"] .category-bottom a{
 
 
 
-/*==================================
-        NEWSLETTER CTA
-==================================*/
-
 .newsletter {
     width: 100%;
-    padding: 60px 5%;
+    padding: 150px 5%;
 
     background: var(--bg, #f8f9fc);
 
@@ -6115,9 +6109,6 @@ html[dir="rtl"] .category-bottom a{
 }
 
 
-/*==================================
-        NEWSLETTER CONTAINER
-==================================*/
 
 .newsletter-container {
     position: relative;
@@ -6149,9 +6140,6 @@ html[dir="rtl"] .category-bottom a{
 }
 
 
-/*==================================
-        CONTENT
-==================================*/
 
 .newsletter-content {
     position: relative;
@@ -6168,9 +6156,6 @@ html[dir="rtl"] .category-bottom a{
 }
 
 
-/*==================================
-        TAG
-==================================*/
 
 .newsletter-tag {
     display: inline-flex;
@@ -6190,7 +6175,7 @@ html[dir="rtl"] .category-bottom a{
 
     border: 1px solid rgba(255, 255, 255, 0.25);
 
-    color: #fff;
+    color: var(--primary);
 
     font-size: 12px;
 
@@ -6215,10 +6200,6 @@ html[dir="rtl"] .category-bottom a{
     font-size: 14px;
 }
 
-
-/*==================================
-        HEADING
-==================================*/
 
 .newsletter-content h2 {
     margin: 0 0 15px;
